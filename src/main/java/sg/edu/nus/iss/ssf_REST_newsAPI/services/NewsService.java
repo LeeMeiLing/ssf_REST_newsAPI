@@ -22,7 +22,7 @@ public class NewsService {
     @Value("${news.key}")
 	private String apiKey;
 
-    // GET /https://newsapi.org/v2/top-headlines?country=us&apiKey=94b4d80e48ed48cdaa9a7fd9ce350654
+    // GET /https://newsapi.org/v2/top-headlines?country=us&apiKey=apiKey
 
     private final String URL = "https://newsapi.org/v2/top-headlines";
 
